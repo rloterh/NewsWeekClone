@@ -8,6 +8,7 @@
 body {
   background-color: #f4f5f6;
   color: #333;
+  height: 4000px;
 }
 
 .nav-1 {
@@ -58,4 +59,19 @@ img[alt="newsweek-logo"] {
 
 main {
   margin-top: 63px;
+}
+
+.opinion-author-img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.opinion-author {
+  font-size: 14px;
+  color: #555;
 }
