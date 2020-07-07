@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-1 {
+  background-color: #f72210;
+}
+
+img[alt="newsweek-logo"] {
+  display: inline-block;
+  width: 131px;
+  height: 20px;
+}
+
+.fa-user {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.subscribe-btn {
+  background-color: #ffe400;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.section-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+.card-text {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.category {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  color: #f72210;
+  padding: 9px 15px;
+  font-size: 17px;
+}
+
+main {
+  margin-top: 63px;
+}
