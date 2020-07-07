@@ -27,6 +27,12 @@ img[alt="newsweek-logo"] {
   color: #fff;
 }
 
+.fa-chevron-right {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin: 3px 5px;
+}
+
 .subscribe-btn {
   background-color: #ffe400;
   font-size: 13px;
@@ -60,6 +66,7 @@ img[alt="newsweek-logo"] {
   color: #f72210;
   padding: 9px 15px;
   font-size: 17px;
+  font-weight: 700;
 }
 
 main {
@@ -181,4 +188,36 @@ input[type="email"]::-webkit-input-placeholder {
   font-weight: 600;
   font-size: 17px;
   margin-top: 10px;
+}
+
+.magazine-section {
+  margin-top: 20px;
+}
+
+.magazine-image {
+  width: 100%;
+  height: 270px;
+}
+
+.article-index {
+  background-color: #f61602;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 3px 6px;
+}
+
+.article-topic {
+  background-color: #fff;
+  color: #f61602;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 3px 8px;
+}
+
+.magazine-article-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  line-height: 21px;
 }
