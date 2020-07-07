@@ -131,3 +131,32 @@ main {
   font-weight: 700;
 
 }
+
+.sign-up-box {
+  height: 186px;
+  background-color: #f4f5f6;
+}
+
+.sign-up-box-content {
+  width: 248px;
+}
+
+.n-icon {
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  background: url("/image/newsweek-n-icon.svg") center/contain no-repeat #f72210;
+}
+
+.email-input {
+  width: 248px;
+  height: 32px;
+  border: 1px solid #c2d4d7;
+}
+
+.sign-up-box-title {
+  font-size: 19px;
+  color: #333;
+  font-weight: 800;
+  line-height: 20px;
+}
