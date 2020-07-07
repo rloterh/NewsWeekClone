@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
 }
 
 body {
@@ -37,9 +38,10 @@ img[alt="newsweek-logo"] {
 }
 
 .section-title {
-  color: rgba(3, 3, 3, 0.4);
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 700;
 }
 
 .card-text {
@@ -105,4 +107,27 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #333;
+}
+
+.my-turn-txt h5,
+.cult-n-travel-txt h5 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.culture-travel a {
+  color: #333;
+  background-color: rgba(170, 160, 160, 0.596);
+
+}
+
+.sponsored-insight a {
+  color: #3581f4;
+  background-color: #eee;
+  font-size: 1.7rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+
 }
