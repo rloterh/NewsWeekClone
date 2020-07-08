@@ -117,6 +117,12 @@ main {
   margin: 6px auto;
 }
 
+.more-stories-img {
+  display: block;
+  width: 95px;
+  height: 95px;
+}
+
 .more-stories-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -237,4 +243,8 @@ input[type="email"]::-webkit-input-placeholder {
     height: 14vw;
   }
 
+}
+
+@media screen and (min-width: 1024px) {
+  
 }
