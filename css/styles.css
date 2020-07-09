@@ -241,7 +241,7 @@ input[type="email"]::-webkit-input-placeholder {
 .small-image {
   display: block;
   width: 95px;
-  height: 63px;
+  height: 80px;
 }
 
 .small-article-title {
@@ -304,6 +304,7 @@ form > .subscribe-btn2 {
   font-size: 1.8rem;
   line-height: 1.8;
   font-weight: 700;
+  background-color: #f72210;
 }
 
 .newletter h3 {
@@ -316,6 +317,10 @@ form > .subscribe-btn2 {
 @media screen and (min-width: 768px) {
   .magazine-image {
     height: 14vw;
+  }
+
+  .substribe-section {
+    display: flex;
   }
 
 }
