@@ -66,7 +66,7 @@ img[alt="newsweek-logo"] {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   color: #f72210;
   padding: 8px 15px;
   font-size: 17px;
@@ -112,7 +112,7 @@ main {
   background-color: #000;
   color: #d6d6d6;
   border-radius: 50%;
-  font: bold 14px/32px "Roboto Condensed",sans-serif;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 6px auto;
 }
@@ -238,6 +238,53 @@ input[type="email"]::-webkit-input-placeholder {
   line-height: 17px;
 }
 
+.current,
+.previous {
+  width: 170px;
+  height: 228px;
+}
+
+.current {
+  position: relative;
+  top: 13px;
+  left: 80px;
+}
+
+.previous {
+  position: absolute;
+}
+
+.subscribe-section {
+  background-color: #f4f5f6;
+}
+
+.subscribe-section h5 {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+  font-weight: 300;
+}
+
+/* .subscribe-weekly-delivery {
+  padding: 15px ;
+} */
+
+.subscribe-header {
+  color: #f72210;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+}
+
+.overlap-images h3 {
+  position: absolute;
+  bottom: 10px;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
   .magazine-image {
     height: 14vw;
@@ -245,6 +292,4 @@ input[type="email"]::-webkit-input-placeholder {
 
 }
 
-@media screen and (min-width: 1024px) {
-  
-}
+@media screen and (min-width: 1024px) {}
