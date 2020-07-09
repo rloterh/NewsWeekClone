@@ -19,9 +19,9 @@
 </head>
 
 <body>
-  <div class="container-xl p-0 mx-auto">
+  <div class="container-xl p-0 mx-auto bg-white">
     <header>
-      <nav class="nav nav-1 justify-content-between p-1 align-items-center fixed-top d-lg-none">
+      <nav class="nav nav-1 justify-content-between p-1 align-items-center fixed-top">
         <img src="/image/newsweek-logo.svg" alt="newsweek-logo">
         <div>
           <i class="fas fa-user d-inline-block p-2"></i>
@@ -29,7 +29,48 @@
           <i class="fas fa-bars p-2"></i>
         </div>
       </nav>
-      <nav></nav>
+
+      <nav class="nav nav-2 hidden">
+        <div class="d-flex justify-content-between p-4">
+          <div>
+            <span class="weather-info d-block"><img src="/image/weather-logo.png" alt="weather-logo"> 29° Dhaka,
+              BD</span>
+            <span class="date d-block">Mon, Jul 06, 2020</span>
+          </div>
+          <img src="/image/newsweek-logo.svg" alt="newsweek-logo-big" class="d-block ml-5">
+          <div class="pt-4 d-flex align-items-center">
+            <span class="login pr-4">LOGIN</span>
+            <button type="button" class="btn btn-sm big-subscribe-btn rounded-pill">SUBSCRIBE <i
+                class="fas fa-chevron-right"></i></button>
+          </div>
+        </div> 
+      </nav>
+
+      <nav class="nav-links hidden">
+        <ul class="top-nav-bar-list-1 border-bottom py-3 d-flex">
+          <li>U.S.</li>
+          <li>World</li>
+          <li>Business</li>
+          <li>Tech & Science</li>
+          <li>Culture</li>
+          <li>Newsgeek</li>
+          <li>Sports</li>
+          <li>Health</li>
+          <li>The Debate</li>
+          <li>Vantage</li>
+          <li>Weather</li>
+          <li class="border-0 mr-5">Search <i class="fas fa-search"></i></li>
+        </ul>
+  
+        <ul class="top-nav-bar-list-2 border-bottom py-3">
+          <li>TRENDING</li>
+          <li>DONALD TRUMP</li>
+          <li>JOE BIDEN</li>
+          <li>CHINA</li>
+          <li>CORONAVIRUS</li>
+          <li>2020 ELECTION</li>
+        </ul>
+      </nav>
     </header>
 
     <main>
