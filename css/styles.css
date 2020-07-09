@@ -112,9 +112,11 @@ img[alt="newsweek-logo"] {
   padding: 2px 7px;
   flex-grow: 1;
   border-right: 1px solid lightgray;
+  text-align: center;
 }
 
-.top-nav-bar-list-1 li:hover {
+.top-nav-bar-list-1 li:hover,
+.top-nav-bar-list-2 li:hover {
   cursor: pointer;
   color: #f61602;
 }
