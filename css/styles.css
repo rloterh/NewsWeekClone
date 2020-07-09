@@ -274,8 +274,8 @@ input[type="email"]::-webkit-input-placeholder {
 .subscribe-section h5 {
   text-align: center;
   font-family: 'Helvetica', sans-serif;
-  font-size: 1.3rem;
-  line-height: 2.8rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 300;
 }
 
@@ -284,7 +284,8 @@ input[type="email"]::-webkit-input-placeholder {
 } */
 
 .subscribe-header,
-.section-header {
+.section-header,
+.newletter-header {
   color: #f72210;
   font-size: 2rem;
   line-height: 2.8rem;
@@ -297,6 +298,19 @@ input[type="email"]::-webkit-input-placeholder {
   font-size: 2rem;
   line-height: 2.8rem;
   font-weight: 700;
+}
+
+form > .subscribe-btn2 { 
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+.newletter h3 {
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
