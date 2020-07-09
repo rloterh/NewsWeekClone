@@ -258,13 +258,23 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 .current {
-  position: relative;
+  position: absolute;
   top: 13px;
   left: 80px;
 }
 
 .previous {
+  position: relative;
+  left: -41px;
+  top: 0;
+}
+
+.overlay-text {
   position: absolute;
+  top: -26px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .subscribe-section {
@@ -296,12 +306,14 @@ input[type="email"]::-webkit-input-placeholder {
   font-weight: 700;
 }
 
-form > .subscribe-btn2 { 
+.subscribe-btn2 { 
   font-size: 1.8rem;
   line-height: 1.8;
   font-weight: 700;
   background-color: #f72210;
   align-items: center !important;
+  color: #fff;
+  display: block;
 }
 
 .newsletter-form input {
@@ -330,6 +342,15 @@ form > .subscribe-btn2 {
 
   .substribe-section {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .overlap-images {
+    width: 280px;
+  }
+
+  .overlay-text {
+    top: 0;
   }
 
 }
