@@ -433,9 +433,49 @@ img[alt="news-letter-img"] {
   height: 100%;
 }
 
+footer h6 {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: #777;
+}
+
 img[alt="footer-logo"] {
   width: 235px;
   height: 36px;
+  display: block;
+}
+
+.footer-social-icons {
+  border-bottom: 1px solid #777;
+}
+
+.footer-social-icons i {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #777;
+} 
+
+.footer-sitemap-title {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.footer-sitemap li,
+.footer-sitemap-2 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-sitemap li  a,
+.footer-sitemap-2 li a {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  color: #777;
 }
 
 @media screen and (min-width: 768px) {
@@ -494,7 +534,4 @@ img[alt="footer-logo"] {
   .nav-links {
     display: block;
   }
-
-  
-
 }
