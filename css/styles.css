@@ -165,7 +165,7 @@ main {
 }
 
 .thick-border {
-  border-bottom: 4px solid rgba(3, 3, 3, 0.4);
+  border-bottom: 4px solid #d9d9d9;
 }
 
 .double-line-border {
@@ -174,7 +174,7 @@ main {
 
 .deco-vs {
   top: -18px;
-  left: 50%;
+  left: 46%;
   font-size: 16px;
   border-radius: 100%;
   background-color: #000;
@@ -357,11 +357,13 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 .overlay-text {
-  position: absolute;
-  top: -26px;
+  position: relative;
+  top: -10px;
   color: #000;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
+  text-align: center;
+  max-width: 500px;
 }
 
 .subscribe-section {
@@ -422,6 +424,11 @@ input[type="email"]::-webkit-input-placeholder {
   text-align: center;
 }
 
+img[alt="news-letter-img"] {
+  width: 100%;
+  height: 100%;
+}
+
 img[alt="footer-logo"] {
   width: 235px;
   height: 36px;
@@ -435,6 +442,7 @@ img[alt="footer-logo"] {
   .substribe-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .overlap-images {
@@ -443,6 +451,11 @@ img[alt="footer-logo"] {
 
   .overlay-text {
     top: 0;
+    font-size: 24px;
+  }
+
+  .news-letter-img {
+    display: block;
   }
 
 }
