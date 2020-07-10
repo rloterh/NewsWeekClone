@@ -24,6 +24,10 @@ body {
   background-color: #f72210;
 }
 
+.nav-1 * {
+  margin: 0 5px;
+}
+
 .nav-2 {
   display: none;
   background-color: #f72210;
@@ -60,10 +64,10 @@ img[alt="newsweek-logo"] {
 
 .subscribe-btn {
   background-color: #ffe400;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
-  width: 93px;
-  padding: 0 12px;
+  
+  padding: 0 15px;
 }
 
 .login {
@@ -456,6 +460,14 @@ img[alt="footer-logo"] {
 
   .news-letter-img {
     display: block;
+  }
+
+  .login {
+    display: inline;
+  }
+
+  .login-subscribe .fa-user {
+    display: none;
   }
 
 }
