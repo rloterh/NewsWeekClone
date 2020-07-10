@@ -8,8 +8,6 @@
 
 ![screenshot](screenshots/screen-lg-1.png)
 
-![screenshot](screenshots/screen-lg-2.png)
-
 ![screenshot](screenshots/screen-lg-3.png)
 
 **Medium Screen (Greater than 767px)**
@@ -24,7 +22,7 @@
 
 ![screenshot](screenshots/screen-sm-2.png)
 
-![screenshot](screenshots/screen-sm-3.png)
+
 
 
 Click [here](https://www.newsweek.com//) to view The NewsWeek website, which we used as a model for this project.
