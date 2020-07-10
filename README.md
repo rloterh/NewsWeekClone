@@ -8,19 +8,14 @@
 
 ![screenshot](screenshots/screen-lg-1.png)
 
-![screenshot](screenshots/screen-lg-3.png)
-
 **Medium Screen (Greater than 767px)**
 
 ![screenshot](screenshots/screen-md-1.png)
-
-![screenshot](screenshots/screen-md-2.png)
 
 **Small Screen (Less than 767px)**
 
 ![screenshot](screenshots/screen-sm-1.png)
 
-![screenshot](screenshots/screen-sm-2.png)
 
 
 

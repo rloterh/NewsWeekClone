@@ -186,10 +186,6 @@ img[alt="newsweek-logo"] {
   font-weight: 700;
 }
 
-main {
-  margin-top: 41px;
-}
-
 .thick-border {
   border-bottom: 4px solid #d9d9d9;
 }
@@ -500,8 +496,20 @@ img[alt="footer-logo"] {
     display: inline-block;
   }
 
+  .copyright-contents {
+    display: flex;
+    align-items: baseline;
+  }
+
   .copyright-text {
     display: inline-block;
+    padding-left: 20px;
+  }
+
+  .footer-sitemap li,
+  .footer-sitemap-2 li {
+    border-right: 1px solid #777;
+    padding-right: 10px;
   }
 }
 
