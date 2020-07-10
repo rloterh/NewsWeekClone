@@ -8,8 +8,6 @@
 
 body {
   background-color: #f4f5f6;
-  color: #333;
-  height: 4000px;
 }
 
 .hidden {
@@ -29,7 +27,6 @@ body {
 }
 
 .nav-2 {
-  display: none;
   background-color: #f72210;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 94% 100%, 93% 90%, 0% 90%);
   height: 100px;
@@ -46,7 +43,6 @@ img[alt="newsweek-logo-big"] {
 }
 
 img[alt="newsweek-logo"] {
-  display: inline-block;
   width: 131px;
   height: 20px;
 }
@@ -57,17 +53,16 @@ img[alt="newsweek-logo"] {
 }
 
 .fa-chevron-right {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   line-height: 2.5rem;
   margin: 3px 5px;
 }
 
 .subscribe-btn {
   background-color: #ffe400;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
-  
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 .login {
@@ -105,7 +100,6 @@ img[alt="newsweek-logo"] {
 
 .top-nav-bar-list-1 {
   list-style-type: none;
-  
 }
 
 .top-nav-bar-list-1 li {
@@ -117,6 +111,42 @@ img[alt="newsweek-logo"] {
   flex-grow: 1;
   border-right: 1px solid lightgray;
   text-align: center;
+}
+
+.top-nav-bar-list-2 li {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  display: inline;
+  padding: 2px 15px;
+}
+
+.footer-sitemap li,
+.footer-sitemap-2 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.culture-travel a {
+  color: #333;
+  background-color: rgba(170, 160, 160, 0.596);
+}
+
+.sponsored-insight a {
+  color: #3581f4;
+  background-color: #eee;
+  font-size: 1.7rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+}
+
+.footer-sitemap li a,
+.footer-sitemap-2 li a {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  color: #777;
 }
 
 .top-nav-bar-list-1 li:hover,
@@ -131,14 +161,6 @@ img[alt="newsweek-logo"] {
 
 .top-nav-bar-list-2 {
   list-style-type: none;
-}
-
-.top-nav-bar-list-2 li {
-  font-size: 16px;
-  color: #000;
-  font-weight: 700;
-  display: inline;
-  padding: 2px 15px;
 }
 
 .section-title {
@@ -157,7 +179,7 @@ img[alt="newsweek-logo"] {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
   padding: 8px 15px;
   font-size: 17px;
@@ -206,7 +228,6 @@ main {
   margin-bottom: 0;
 }
 
-
 .more-stories-img {
   display: block;
   width: 95px;
@@ -225,21 +246,6 @@ main {
   line-height: 1.9rem;
   font-weight: 700;
   color: rgba(3, 3, 3, 0.5);
-}
-
-.culture-travel a {
-  color: #333;
-  background-color: rgba(170, 160, 160, 0.596);
-
-}
-
-.sponsored-insight a {
-  color: #3581f4;
-  background-color: #eee;
-  font-size: 1.7rem;
-  line-height: 1.6rem;
-  font-weight: 700;
-
 }
 
 .sign-up-box {
@@ -399,14 +405,13 @@ input[type="email"]::-webkit-input-placeholder {
   font-weight: 700;
 }
 
-.subscribe-btn2 { 
+.subscribe-btn2 {
   font-size: 1.8rem;
   line-height: 1.8;
   font-weight: 700;
   background-color: #f72210;
-  align-items: center !important;
+  align-items: center;
   color: #fff;
-  display: block;
 }
 
 .newsletter-form input {
@@ -444,18 +449,13 @@ footer h6 {
 img[alt="footer-logo"] {
   width: 235px;
   height: 36px;
-  display: block;
-}
-
-.footer-social-icons {
-  border-bottom: 1px solid #777;
 }
 
 .footer-social-icons i {
   font-size: 2rem;
   margin-right: 15px;
   color: #777;
-} 
+}
 
 .footer-sitemap-title {
   font-size: 1.2rem;
@@ -463,26 +463,7 @@ img[alt="footer-logo"] {
   font-weight: 700;
 }
 
-.footer-sitemap li,
-.footer-sitemap-2 li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.footer-sitemap li  a,
-.footer-sitemap-2 li a {
-  font-family: 'Arial', Helvetica, sans-serif;
-  font-size: 1.2rem;
-  line-height: 2.5rem;
-  font-weight: 400;
-  color: #777;
-}
-
 @media screen and (min-width: 768px) {
-  .magazine-image {
-    height: 14vw;
-  }
-
   .substribe-section {
     display: flex;
     flex-wrap: wrap;
@@ -510,6 +491,18 @@ img[alt="footer-logo"] {
     display: none;
   }
 
+  .footer-logo-social-icon-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img[alt="footer-logo"] {
+    display: inline-block;
+  }
+
+  .copyright-text {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -522,11 +515,11 @@ img[alt="footer-logo"] {
   main {
     margin-top: 0;
   }
-  
+
   .nav-1 {
     display: none;
   }
-  
+
   .nav-2 {
     display: block;
   }
