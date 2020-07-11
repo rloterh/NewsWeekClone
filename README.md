@@ -4,20 +4,8 @@
 
 > This Microverse project allowed us to demonstrate the use of media queries to design webpages that adapt to different screen sizes. Also we learned about bootstrap.
 
-**Large Screen (Greater than 1023px)**
 
-![screenshot](screenshots/screen-lg-1.png)
-
-**Medium Screen (Greater than 767px)**
-
-![screenshot](screenshots/screen-md-1.png)
-
-**Small Screen (Less than 767px)**
-
-![screenshot](screenshots/screen-sm-1.png)
-
-
-
+![screenshot](screenshot.png)
 
 
 Click [here](https://www.newsweek.com//) to view The NewsWeek website, which we used as a model for this project.
@@ -26,6 +14,7 @@ Click [here](https://www.newsweek.com//) to view The NewsWeek website, which we 
 
 - HTML
 - CSS
+- Bootstrap v-4.5
 
 ## Live Demo 🔴
 
@@ -82,6 +71,7 @@ Give a ⭐️ if you like this project!
 - [Microverse](https://www.microverse.org/)
 - The Newsweek - nice website!
 - VSCode <3
+- Bootstrap
 
 
 ## 📝 License
