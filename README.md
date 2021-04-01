@@ -38,8 +38,8 @@ The rubric of this project is to demonstrate the use of Twitter Booststrap and m
 
 ## Getting Started
 
-- [Clone](https://github.com/rloterh/NewsWeekClone.git) this project
-- Within the project root directory launch `index.html` in a web browser
+1. - [Clone](https://github.com/rloterh/NewsWeekClone.git) this project
+2. - Within the project root directory launch `index.html` in a web browser
 
 
 ## Testing
