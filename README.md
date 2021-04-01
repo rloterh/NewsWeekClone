@@ -4,7 +4,7 @@
 
 
 ## Description
-The rubric of this project is to demonstrate the use of Twitter Booststrap and media queries to design fully responsive (adapting to different device screen sizes) web pages. [The News Week](https://www.newsweek.com/) is the model for this project. The specification for this project is a part of the Odin Project.
+The rubric of this project is to demonstrate the use of Twitter Booststrap and media queries to design fully responsive (adapting to different device screen sizes) web pages. [The News Week](https://www.newsweek.com/) is the model for this project. The specification for this project is a part of [The Odin Project](https://www.theodinproject.com/).
 
 
 ## Library Directory 📙
@@ -13,8 +13,8 @@ The rubric of this project is to demonstrate the use of Twitter Booststrap and m
 | ------------------------- |
 | [Live Demo](#live-demo) |
 | [App Screenshot](#app-screenshot) |
-| [Getting Started](#getting-started)   |
 | [Built With](#built-with)   |
+| [Getting Started](#getting-started)   |
 | [Testing](#testing)   |
 | [Authors](#authors)       |
 | [License](#license)       |
@@ -29,17 +29,17 @@ The rubric of this project is to demonstrate the use of Twitter Booststrap and m
 ![img](screenshot.png)
 
 
-## Getting Started
-
-- [Clone](https://github.com/rloterh/NewsWeekClone.git) this project
-- Within the project root directory launch `index.html` in a web browser
-
-
 ## Built With
 
 - HTML
 - CSS
 - Bootstrap v4.5
+
+
+## Getting Started
+
+- [Clone](https://github.com/rloterh/NewsWeekClone.git) this project
+- Within the project root directory launch `index.html` in a web browser
 
 
 ## Testing
@@ -50,7 +50,7 @@ This project was tested using [W3C Validator](https://validator.w3.org/) and [St
 ### Validating HTML Syntax
 
 1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
-2. - Upload the file named `index.html` in the project directory
+2. - Upload the file named `index.html` from the project directory
 3. - Click on the check button to validate
 4. - All test cases should pass, when no error message is shown 
 
