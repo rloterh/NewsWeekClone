@@ -1,79 +1,105 @@
-# The NewsWeek Clone  
+# The NewsWeek Clone - Using Bootstrap (Microverse HTML/ CSS Module)
 
-> For this project, we recreated The Newsweek website with fully responsive web design using bootstrap.
-
-> This Microverse project allowed us to demonstrate the use of media queries to design webpages that adapt to different screen sizes. Also we learned about bootstrap.
+![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 
-![screenshot](screenshot.png)
+## Description
+The rubric of this project is to demonstrate the use of Twitter Booststrap and media queries to design fully responsive (adapting to different device screen sizes) web pages. [The News Week](https://www.newsweek.com/) is the model for this project. The specification for this project is a part of the Odin Project.
 
 
-Click [here](https://www.newsweek.com//) to view The NewsWeek website, which we used as a model for this project.
+## Library Directory 📙
 
-## Built With 🧰
+| Contents                  |
+| ------------------------- |
+| [Live Demo](#live-demo) |
+| [App Screenshot](#app-screenshot) |
+| [Getting Started](#getting-started)   |
+| [Built With](#built-with)   |
+| [Testing](#testing)   |
+| [Authors](#authors)       |
+| [License](#license)       |
+
+
+
+## Live Demo
+[NewsWeekClone live demo](https://dreamy-fermi-2a08f5.netlify.app/)
+
+
+## App Screenshot
+![img](screenshot.png)
+
+
+## Getting Started
+
+- [Clone](https://github.com/rloterh/NewsWeekClone.git) this project
+- Within the project root directory launch `index.html` in a web browser
+
+
+## Built With
 
 - HTML
 - CSS
-- Bootstrap v-4.5
+- Bootstrap v4.5
 
-## Live Demo 🔴
 
-[Live Demo Link](https://dreamy-fermi-2a08f5.netlify.app/ )
+## Testing
 
-## Getting Started 🏁
+This project was tested using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
+ 
 
-To get a local copy up and running on your own machine, just follow these simple steps:
+### Validating HTML Syntax
 
-### Prerequisites
+1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
+2. - Upload the file named `index.html` in the project directory
+3. - Click on the check button to validate
+4. - All test cases should pass, when no error message is shown 
 
-If you are viewing this README.md file using a computer, a browser and a connection to the internet, then congratulations! You have all the prerequisites to access our project.
+### Validating CSS Syntax
 
-### Setup
+1. - Run the command `npm -v` to ensure node package manager is installed
+2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
+3. - Go to the terminal, and navigate to project directory
+4. - Run the command `npm install`
+5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
+6. - All test cases passes, when no error message is shown in the terminal
 
-1. Open Terminal
-2. Navigate to your desired location to download the contents of this repository.
-3. Copy and paste the following code into the Terminal: 
-        
-        git clone https://github.com/rloterh/NewsWeekClone.git
-
-4. Hit enter
-5. Once the repository has been cloned, open index.html in a browser of your choosing.
-6. Enjoy!
 
 ## Authors
 
-👤 **Robert Loterh**
+### 👨‍💻 Robert Loterh
 
-- Github: [@rloterh](https://github.com/rloterh)
-- Twitter: [@RLoterh](https://twitter.com/RLoterh)
-- Linkedin: [Robert Loterh](https://www.linkedin.com/in/robert-loterh-30b265135)
-- Email: rloterh@gmail.com
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/rloterh) <br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/robert-loterh/) <br>
+[![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:rloterh@gmail.com) <br>
+[![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/RLoterh) <br>
 
-👤 **Ershadul Hakim Rayhan**
 
-- Github: [@ershadul1](https://github.com/ershadul1)
-- Twitter: [@ErshadulRayhan](https://twitter.com/ErshadulRayhan)
-- Linkedin: [ErshadulRayhan](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
-- Email:  ershadul.rayhan@gmail.com
+ ### 👨‍💻 Ershadul Hakim Rayhan
+
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Aershadul1)<br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/) <br>
+[![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:ershadul.rayhan@gmail.com) <br>
+[![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/ErshadulRayhan)<br>
+
 
 ## 🤝 Contributing
 
-The best contribution you can make is helping us improve our work by submitting an issue. 
+Contributions, issues and feature requests are welcome!
 
-You can also fork this repo and work on it.
+Feel free to check the [issues page](https://github.com/rloterh/NewsWeekClone/issues/new).
+
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- [Twitter Bootstrap](https://getbootstrap.com/)
+- [The Next Web](https://www.newsweek.com/)
+- [The Odin Project](https://www.theodinproject.com/)
 - [Microverse](https://www.microverse.org/)
-- The Newsweek - nice website!
-- VSCode <3
-- Bootstrap
 
 
-## 📝 License
+### License
 
-This project is [MIT](lic.url) licensed.
+![Cocoapods](https://img.shields.io/cocoapods/l/AFNetworking?color=red&style=for-the-badge)
