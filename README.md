@@ -78,8 +78,8 @@ This project was tested using [W3C Validator](https://validator.w3.org/) and [St
 
  ### 👨‍💻 Ershadul Hakim Rayhan
 
-[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Aershadul1)<br>
-[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/) <br>
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/ershadul1)<br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ershadulrayhan/) <br>
 [![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:ershadul.rayhan@gmail.com) <br>
 [![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/ErshadulRayhan)<br>
 
